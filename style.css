@@ -3,3 +3,120 @@
     padding: 0;
     font-family: 'Rubik', sans-serif;
 }
+.iscontainer{
+   background: #FBFBFB;
+    display: flex;
+   justify-content: center; 
+}
+.iscenter{
+    width: 85%;
+    padding-top: 80px;
+}
+.ischoose h1{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;   
+}
+.islets p{
+ font-family: 'Rubik';
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+color: #4F5665;
+margin: 20px 0px 60px 0px;
+}
+
+.ismenu{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.isplan{
+    width: 29%;
+    background: #FFFFFF;
+border: 2px solid #DDDDDD;
+border-radius: 10px;
+display: flex;
+flex-wrap: wrap;
+align-content: space-between;
+justify-content: center;
+}
+.isfff img{
+    padding-top: 79px;
+}
+.istop h1{
+ font-family: 'Rubik';
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #0B132A;
+padding: 30px 0px;
+}
+.isicon{
+    display: flex;
+   gap: 10px;
+   padding-top: 10px;
+   align-items: center;
+}
+.isicon p{
+     font-family: 'Rubik';
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+color: #4F5665;
+}
+.isbuttom{
+    width: 100%;
+}
+.isbuttom h1{
+    font-family: 'Rubik';
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #0B132A;
+padding-top: 130px;
+}
+.isbutt button{
+    font-family: 'Rubik';
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #F53838;
+border: none;
+padding: 13px 62px;
+background: #FFFFFF;
+border: 2px solid #F53838;
+border-radius: 10px;
+cursor: pointer;
+}
+.isbutt button:hover{
+    background: #4F5665;
+}
+.isbutt{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px  50px 0px;
+}
+#ishuge{
+    padding-top: 150px;
+}
+.isohiron{
+    display: flex;
+    justify-content: center;
+}
+.isbutt button:hover{
+    background: #F53838;
+    color: #DDDDDD;
+    box-shadow: 0px 30px 70px #F53838;
+}
+.isposli{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
