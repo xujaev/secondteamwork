@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Rubik', sans-serif;
 }
+
 .Ali-main{
     display: flex;
     justify-content: center;
@@ -100,3 +101,144 @@ color: #4F5665;
 .Ali-right2{
     width: 60%;
 }
+
+.XM-container{
+    display: flex;
+    justify-content: center;
+}
+.XM-container .XM-center{
+    width: 85%;
+    /* display: flex;
+    justify-content: center; */
+}
+ .XM-container .XM-center .XM-first{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 120px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.XM-container .XM-center .XM-first .XM-navbar{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    align-items: center;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-lasles{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-features ul{
+    display: flex;
+    gap: 40px;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-features ul li{
+    list-style: none;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-features ul li a{
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 16px;
+   color: #4F5665;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-lasles img{
+    width: 35px;
+    height: 36.2px;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-lasles h1{
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 6px;
+    color: #0B132A;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-buttons{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-buttons p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #0B132A;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-buttons p:hover{
+   cursor: pointer;
+   transition: all 0.7s ease;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0B132A;
+    padding: 13px 45px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    background-color: #F53855;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-buttons button:hover{
+    font-weight: 500;
+    font-size: 16px;
+    color: #0B132A;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    background-color: #F53855;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-buttons button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #F53855;padding: 13px 45px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+}
+.XM-container .XM-center .XM-first .XM-navbar .XM-features ul li a:hover{
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #F53855;
+    color: #0B132A;
+    border-radius: 50px;
+    transition: all 0.7s ease;
+ }
+ .XM-container .XM-center .XM-first .XM-vpn {
+    display: flex;
+    gap: 75px;
+ }
+ .XM-container .XM-center .XM-first .XM-vpn .XM-left h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+ }
+ .XM-container .XM-center .XM-first .XM-vpn .XM-left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    padding-top: 20px;
+ }
+ .XM-container .XM-center .XM-first .XM-vpn .XM-left button{
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    padding: 17.5px 77.5px;
+    background: #F53838;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 0px 20px 57px #F53838;
+    margin-top: 50px;
+}
+.XM-container .XM-center .XM-first .XM-vpn .XM-left button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.7s ease;
+    color: #F53838;
+    border: 1px solid #F53838;
+    border-radius: 10px;
+}
+ .XM-container .XM-center .XM-first .XM-vpn .XM-right img{
+    width: 611px;
+    height: 382px;
+ }
+
