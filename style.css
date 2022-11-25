@@ -3,3 +3,166 @@
     padding: 0;
     font-family: 'Rubik', sans-serif;
 }
+.md-main{
+    width: 100%;
+
+}
+.md-center{
+    width: 80%;
+    margin: auto;
+}
+.trushed{
+    text-align: center;
+}
+.text{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+.text h1{
+    margin: 10px 0px;
+}
+.text p{
+    margin: 10px 0px;
+    opacity: 0.7;
+}
+.viez{
+    padding: 30px 30px;
+    width: 25%;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+.pic{
+    display: flex;
+}
+.robert{
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.md-next{
+    display: flex;
+    justify-content: space-between;
+}
+.div{
+    background-color: orange;
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+}
+.md-next{
+    margin-top: 60px;
+}
+.kat{
+    display: flex;
+}
+.div2{
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.tir{
+    display: flex;
+}
+.div3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+.div4{
+    margin: 0px 5px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid orangered;
+    border-radius: 50%;
+}
+.sub{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.for {
+    width: 35%;
+
+}
+.for h1{
+    margin: 10px 0px;
+}
+.subcribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 10px;
+    background-color: orangered;
+    width: 20%;
+    height: 40px;
+}
+.subcribe:hover{
+    border: 2px solid orangered;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+.md-footer{
+    background-color: aliceblue;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.las{
+    width: 20%;
+}
+.produkt ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.eng ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.money ul{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.produkt ul li{
+    
+    padding: 8px 16px;
+    border-radius: 10px;
+
+}
+.produkt ul li:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+
+}
+.eng ul li{
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+.eng ul li:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+.money ul li{
+    padding: 8px 16px;
+    border-radius: 10px;
+
+}
+.money ul li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.las h3{
+    margin: 30px 0px;
+}
